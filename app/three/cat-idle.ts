@@ -1,0 +1,14 @@
+import type {CatModel,Pose} from './sculpture';
+const smooth=(a:number,b:number,x:number)=>{const t=Math.max(0,Math.min(1,(x-a)/(b-a)));return t*t*(3-2*t);};
+/** Small rigid eye/head gestures and a root-pinned ear field preserve the reference silhouette. */
+export function animateCatIdle(cat:CatModel,pose:Pose){if(!pose.motion||!cat.basePositions||!cat.baseNormals)return;const age=pose.time-pose.events[4];if(age>=0&&age<2.7)return;const fade=age<3.05?smooth(2.7,3.05,age):1,lookX=(pose.catLookX??0)*fade,lookY=(pose.catLookY??0)*fade,attention=(pose.catAttention??0)*fade,reveal=pose.paperReveal??0,head=cat.anchors?.Head_Pivot??[0,0,0],center=cat.center??[0,0,0],cycle=(pose.time+1.4)%5.7;
+ const blink=cycle<.24?(cycle<.075?smooth(0,.075,cycle):1-smooth(.115,.24,cycle)):0,closed=blink>.62,hy=lookX*.09,hp=-lookY*.045,hr=-lookX*.035*attention+Math.sin(pose.time*.8)*.008,cy=Math.cos(hy),sy=Math.sin(hy),cp=Math.cos(hp),sp=Math.sin(hp),cz=Math.cos(hr),sz=Math.sin(hr);
+ for(const part of cat.parts??[]){const name=part.name.toLowerCase(),isHead=/head|ear|eye|lid|squint|nose|muzzle|cheek|whisker|mouth|tongue|chin|brow/.test(name),isEye=/eye_/.test(name),isEar=/ear_[lr]/.test(name),side=/eye_l|ear_l/.test(name)?'L':'R',eye=cat.anchors?.['Eye_Pivot_'+side],crease=cat.anchors?.['Eye_Squint_Pivot_'+side];
+ for(let i=part.start;i<part.start+part.count;i++){const k=i*3;let x=cat.basePositions[k],y=cat.basePositions[k+1],z=cat.basePositions[k+2],nx=cat.baseNormals[k],ny=cat.baseNormals[k+1],nz=cat.baseNormals[k+2];
+ if(isEye&&eye){if(/squint/.test(name)){if(!closed){cat.positions.set(crease??eye,k);continue;}}else if(closed){cat.positions.set(eye,k);continue;}else{const ex=lookX*.10,ey=-lookY*.07,c=Math.cos(ex),s=Math.sin(ex),px=x-eye[0],pz=z-eye[2];x=eye[0]+px*c+pz*s;z=eye[2]-px*s+pz*c;const nn=nx*c+nz*s;nz=-nx*s+nz*c;nx=nn;const c2=Math.cos(ey),s2=Math.sin(ey),py=y-eye[1],pz2=z-eye[2];y=eye[1]+py*c2-pz2*s2;z=eye[2]+py*s2+pz2*c2;const n2=ny*c2-nz*s2;nz=ny*s2+nz*c2;ny=n2;}}
+ if(isEar){const sign=side==='L'?-1:1,pivotX=sign*.61-center[0],pivotY=1.87-center[1],weight=smooth(1.87,2.08,y+center[1]),a=sign*(-.075*attention+.018*Math.sin(pose.time*1.1+sign))*weight,c=Math.cos(a),s=Math.sin(a),px=x-pivotX,py=y-pivotY;x=pivotX+px*c-py*s;y=pivotY+px*s+py*c;const nn=nx*c-ny*s;ny=nx*s+ny*c;nx=nn;}
+ if(isHead){let px=x-head[0],py=y-head[1],pz=z-head[2],xx=px*cy+pz*sy,zz=-px*sy+pz*cy,yy=py*cp-zz*sp;zz=py*sp+zz*cp;x=head[0]+xx*cz-yy*sz;y=head[1]+xx*sz+yy*cz;z=head[2]+zz;xx=nx*cy+nz*sy;zz=-nx*sy+nz*cy;yy=ny*cp-zz*sp;nz=ny*sp+zz*cp;nx=xx*cz-yy*sz;ny=xx*sz+yy*cz;}
+ else if(reveal>.01&&/arm/.test(name)){const sideSign=x<0?-1:1,pivotX=sideSign*.34-center[0],pivotY=.76-center[1],a=sideSign*reveal*.28,c=Math.cos(a),s=Math.sin(a),px=x-pivotX,py=y-pivotY;x=pivotX+px*c-py*s;y=pivotY+px*s+py*c;z+=reveal*.025;const nn=nx*c-ny*s;ny=nx*s+ny*c;nx=nn;}
+ cat.positions.set([x,y,z],k);cat.normals.set([nx,ny,nz],k);
+ }}
+}

@@ -1,0 +1,9 @@
+'use client';
+import {useEffect,useRef,useState} from 'react';
+import type {CameraPhoto} from './camera-photos';
+import {placeObjectNote} from './object-note-position';
+export default function CameraPrint({photos,shot,motion}:{photos:CameraPhoto[];shot:{id:number;x:number;y:number}|null;motion:boolean}){const [print,setPrint]=useState<{photo:CameraPhoto;id:number;left:number;top:number;dx:number;dy:number}|null>(null),counter=useRef(0);
+ useEffect(()=>{if(!shot||!photos.length)return;setPrint(null);const timer=setTimeout(()=>{const width=Math.min(190,innerWidth*.43),height=width*1.22,objects=Array.from(document.querySelectorAll('.object-hit,.interest-note')).map(e=>{const r=e.getBoundingClientRect();return {left:r.left,top:r.top,right:r.right,bottom:r.bottom};}),at=placeObjectNote(shot,{width,height},{width:innerWidth,height:innerHeight},objects,0);setPrint({photo:photos[counter.current++%photos.length],id:shot.id,left:at.x,top:at.y,dx:shot.x-at.x-width/2,dy:shot.y-at.y-height/2});},motion?630:0);const close=setTimeout(()=>setPrint(null),motion?5200:6500);const dismiss=()=>{clearTimeout(timer);setPrint(null);};window.addEventListener('scroll',dismiss,{passive:true});return()=>{clearTimeout(timer);clearTimeout(close);window.removeEventListener('scroll',dismiss);};},[shot,photos,motion]);
+ useEffect(()=>{for(const photo of photos.slice(0,3)){const img=new Image();img.src=photo.url;}},[photos]);
+ if(!print)return null;return <figure key={print.id} className={`camera-print ${motion?'':'is-still'}`} style={{left:print.left,top:print.top,'--print-dx':print.dx+'px','--print-dy':print.dy+'px'} as React.CSSProperties}><img src={print.photo.url} alt={print.photo.caption||'박현욱이 촬영한 사진'} onError={()=>setPrint(null)}/>{print.photo.caption&&<figcaption>{print.photo.caption}</figcaption>}</figure>;
+}

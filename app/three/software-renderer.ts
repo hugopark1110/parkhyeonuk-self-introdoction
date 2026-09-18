@@ -1,0 +1,44 @@
+import {arrangement,paperPlacement,type CatModel,type Pose} from './sculpture';
+import {studio,displayColor,materials} from './studio';
+import {effects} from './dynamics';
+import {candleLight,createFlamePainter} from './flame';
+import {paintAtmosphere} from './atmosphere';
+import {paintSun} from './sun';
+import {smoothstep} from '../hero-progress';
+/** A depth-buffered, per-pixel 3D rasterizer. No image assets or triangle strokes. */
+const LUT=256;
+let tables:Uint8ClampedArray[]|undefined;
+function shadingTables(){
+ if(tables&&tables.length===materials.length)return tables;
+ tables=materials.map(()=>new Uint8ClampedArray(LUT*LUT*3));
+ const roughBins=materials.map(m=>Math.min(3,Math.round(m.rough*3)));
+ for(let y=0;y<LUT;y++)for(let x=0;x<LUT;x++){
+  let nx=x/(LUT-1)*2-1,ny=y/(LUT-1)*2-1;const xy=nx*nx+ny*ny,nz=Math.sqrt(Math.max(0,1-xy));if(xy>1){const l=Math.sqrt(xy);nx/=l;ny/=l;}
+  const rx=2*nx*nz,ry=2*ny*nz,rz=2*nz*nz-1;
+  const reflections=Array.from({length:4},(_,bin)=>{if(bin===0)return studio(rx,ry,rz);const spread=(bin/3)**2*.55,colors=[[0,0],[spread,0],[-spread,0],[0,spread],[0,-spread]].map(([dx,dy])=>{const vx=rx+dx,vy=ry+dy,l=Math.hypot(vx,vy,rz)||1;return studio(vx/l,vy/l,rz/l);});return [0,1,2].map(k=>colors.reduce((sum,c)=>sum+c[k],0)/5);});
+  const key=Math.max(0,nx*.426+ny*.640+nz*.640),fill=Math.max(0,-nx*.442+ny*.147+nz*.885),bounce=Math.max(0,-ny*.65+nz*.76),fresnel=Math.pow(1-nz,5),half=Math.max(0,nx*.235+ny*.35+nz*.906);
+  const highlights=Array.from({length:4},(_,bin)=>Math.pow(half,14+145*(1-bin/3)**2));
+  for(let m=0;m<materials.length;m++){const mat=materials[m],col=mat.color,bin=roughBins[m],reflected=reflections[bin],soft=mat.kind==='plush',sheen=soft?Math.pow(1-nz,3)*.023:0;
+   for(let k=0;k<3;k++){const diffuse=.25+.61*key*[1,.96,.88][k]+.31*fill+.09*bounce,metallic=reflected[k]*(col[k]*(1-fresnel)+fresnel*.8),plastic=col[k]*diffuse+highlights[bin]*(soft?.009:mat.kind==='soft'?.05:.13)+reflected[k]*(soft?.006:.022)+sheen*[.8,.9,1][k];let light=metallic*mat.metal+plastic*(1-mat.metal);if(mat.glass)light=.055+reflected[k]*(.22+fresnel*.35)+col[k]*.025;tables[m][(y*LUT+x)*3+k]=displayColor(light);}
+  }
+ }
+ return tables;
+}
+export function createSoftwareRenderer(canvas:HTMLCanvasElement,compact:boolean,models:CatModel[]){
+ const ctx=canvas.getContext('2d',{alpha:true});if(!ctx)throw Error('Canvas unavailable');const off=document.createElement('canvas'),oc=off.getContext('2d')!;const luts=shadingTables(),paintFlame=createFlamePainter();let width=1,height=1,rw=1,rh=1,depth=new Float32Array(1),pixels=new ImageData(1,1);
+ const meshes=models.map(model=>{const materialsPerFace=new Uint16Array(model.indices.length/3);for(const part of model.groups)materialsPerFace.fill(part.material,part.start/3,(part.start+part.count)/3);const faceOrder=[];for(let j=0;j<model.indices.length;j+=3)faceOrder.push(j);faceOrder.sort((a,b)=>Number(!!materials[materialsPerFace[a/3]].glass)-Number(!!materials[materialsPerFace[b/3]].glass));return {model,faceOrder,worldPositions:new Float32Array(model.positions.length),vertexColors:model.colors?Float32Array.from(model.colors,v=>Math.pow(Math.max(0,v),1/2.2)):undefined,projected:new Float32Array(model.positions.length),normal:new Float32Array(model.normals.length),materialsPerFace};});
+ function resize(w:number,h:number,dpr:number){width=w;height=h;const ratio=Math.min(Math.max(dpr,1.35),compact?1.35:1.15,(compact?1000:1550)/Math.max(w,h));rw=Math.max(1,Math.round(w*ratio));rh=Math.max(1,Math.round(h*ratio));canvas.width=rw;canvas.height=rh;canvas.style.width=w+'px';canvas.style.height=h+'px';off.width=rw;off.height=rh;depth=new Float32Array(rw*rh);pixels=new ImageData(rw,rh);}
+ function render(pose:Pose){const poses=arrangement(width,height,pose,models),light=candleLight(pose,poses[3],models[3]),night=pose.focus,f=rh/(2*Math.tan(17*Math.PI/180));depth.fill(-Infinity);pixels.data.fill(0);ctx!.clearRect(0,0,rw,rh);if(models[5])poses.push(paperPlacement(poses[4],models[4],models[5],pose.paperReveal??0,pose.time,pose.motion));paintSun(ctx!,width,height,(pose.entrance??1)*(1-night)*(1-smoothstep(.22,.7,pose.progress)));
+  for(let object=0;object<meshes.length;object++){if(poses[object].visibility<.003||(object!==3&&night>.35)||(object===5&&(pose.paperReveal??0)<.015))continue;const {model,projected:p,normal:n,materialsPerFace,faceOrder,worldPositions:wp,vertexColors}=meshes[object],v=poses[object],r=v.matrix,s=v.scale;
+   for(let i=0;i<model.positions.length;i+=3){const ax=model.positions[i]*s,ay=model.positions[i+1]*s,az=model.positions[i+2]*s,x=r[0]*ax+r[1]*ay+r[2]*az+v.x,y=r[3]*ax+r[4]*ay+r[5]*az+v.y,z=r[6]*ax+r[7]*ay+r[8]*az+v.z,iz=1/(8-z);wp[i]=x;wp[i+1]=y;wp[i+2]=z;p[i]=rw*.5+x*f*iz;p[i+1]=rh*.5-y*f*iz;p[i+2]=iz;const nx=model.normals[i],ny=model.normals[i+1],nz=model.normals[i+2];n[i]=r[0]*nx+r[1]*ny+r[2]*nz;n[i+1]=r[3]*nx+r[4]*ny+r[5]*nz;n[i+2]=r[6]*nx+r[7]*ny+r[8]*nz;}
+   for(const j of faceOrder){const a=model.indices[j]*3,b=model.indices[j+1]*3,c=model.indices[j+2]*3,ax=p[a],ay=p[a+1],bx=p[b],by=p[b+1],cx=p[c],cy=p[c+1];const area=(bx-ax)*(cy-ay)-(by-ay)*(cx-ax);if(Math.abs(area)<.005||(area>0&&!materials[materialsPerFace[j/3]].doubleSided))continue;const x0=Math.max(0,Math.floor(Math.min(ax,bx,cx))),x1=Math.min(rw-1,Math.ceil(Math.max(ax,bx,cx))),y0=Math.max(0,Math.floor(Math.min(ay,by,cy))),y1=Math.min(rh-1,Math.ceil(Math.max(ay,by,cy)));if(x1<x0||y1<y0)continue;const inv=1/area,w0x=(by-cy)*inv,w0y=(cx-bx)*inv,w1x=(cy-ay)*inv,w1y=(ax-cx)*inv,table=luts[materialsPerFace[j/3]],mat=materials[materialsPerFace[j/3]];
+    for(let yy=y0;yy<=y1;yy++){let wa=((by-cy)*(x0+.5-cx)+(cx-bx)*(yy+.5-cy))*inv,wb=((cy-ay)*(x0+.5-cx)+(ax-cx)*(yy+.5-cy))*inv;let pix=yy*rw+x0;for(let xx=x0;xx<=x1;xx++,pix++,wa+=w0x,wb+=w1x){const wc=1-wa-wb;if(wa<-.0001||wb<-.0001||wc<-.0001)continue;const z=wa*p[a+2]+wb*p[b+2]+wc*p[c+2];if(z<=depth[pix])continue;if(!mat.glass)depth[pix]=z;let nx=wa*n[a]+wb*n[b]+wc*n[c],ny=wa*n[a+1]+wb*n[b+1]+wc*n[c+1],nz=wa*n[a+2]+wb*n[b+2]+wc*n[c+2];if(area>0){nx=-nx;ny=-ny;nz=-nz;}const invN=1/(Math.sqrt(nx*nx+ny*ny+nz*nz)||1);nx*=invN;ny*=invN;const tx=Math.max(0,Math.min(255,Math.round((nx*.5+.5)*255))),ty=Math.max(0,Math.min(255,Math.round((ny*.5+.5)*255))),ti=(ty*LUT+tx)*3,pi=pix*4;if(mat.glass){const alpha=Math.min(.68,.10+Math.pow(1-Math.abs(nz*invN),3)*.58);for(let k=0;k<3;k++)pixels.data[pi+k]=(pixels.data[pi+3]?pixels.data[pi+k]:255)*(1-alpha)+table[ti+k]*alpha;pixels.data[pi+3]=255;}else{let lit=0;if(night>.001&&object===3){const wx=wa*wp[a]+wb*wp[b]+wc*wp[c],wy=wa*wp[a+1]+wb*wp[b+1]+wc*wp[c+1],wz=wa*wp[a+2]+wb*wp[b+2]+wc*wp[c+2],lx=light.tip.x-wx,ly=light.tip.y+light.height*.36-wy,lz=light.tip.z-wz,d2=lx*lx+ly*ly+lz*lz,il=1/Math.sqrt(d2||1);lit=(Math.max(0,(nx*lx+ny*ly+nz*invN*lz)*il+.14)/1.14)*.45*light.intensity*light.powerScale/(d2+.15*light.powerScale);}
+ for(let k=0;k<3;k++){const vc=vertexColors?wa*vertexColors[a+k]+wb*vertexColors[b+k]+wc*vertexColors[c+k]:1;let day=table[ti+k]*vc;if(mat.kind==='grip'){const micro=Math.sin((wa*wp[a]+wb*wp[b]+wc*wp[c])*380)*Math.sin((wa*wp[a+1]+wb*wp[b+1]+wc*wp[c+1])*410);day*=.965+micro*.025;}if(night>.001&&object===3){const lc=model.colors?wa*model.colors[a+k]+wb*model.colors[b+k]+wc*model.colors[c+k]:1;const dark=displayColor(mat.color[k]*lc*(.018*light.intensity*[1,.45,.18][k]+lit*[1,.42,.12][k]));pixels.data[pi+k]=day*(1-night)+dark*night;}else pixels.data[pi+k]=day;}pixels.data[pi+3]=255;}}}
+   }
+   const span=model.height*s,px=rw*.5+v.x*f/9.4,py=rh*.5-(v.y-span*.48-.2)*f/9.4,rad=span*f/9.4*.55;ctx!.save();ctx!.translate(px,py);ctx!.scale(1,.18);const shadow=ctx!.createRadialGradient(0,0,0,0,0,rad);shadow.addColorStop(0,`rgba(30,38,44,${.045*(1-night)})`);shadow.addColorStop(1,'rgba(30,38,44,0)');ctx!.fillStyle=shadow;ctx!.fillRect(-rad,-rad,rad*2,rad*2);ctx!.restore();
+  }oc.putImageData(pixels,0,0);ctx!.drawImage(off,0,0);for(const spark of (night>.35?[]:effects(pose,poses,models))){const iz=1/(8-spark.z),x=rw/2+spark.x*f*iz,y=rh/2-spark.y*f*iz,size=Math.max(.6,spark.size*f*iz);ctx!.save();ctx!.globalAlpha=spark.alpha;ctx!.fillStyle='#'+spark.color.toString(16).padStart(6,'0');if(spark.kind==='cube'){ctx!.translate(x,y);ctx!.rotate(pose.time*.8+spark.x);ctx!.fillRect(-size/2,-size/2,size,size);}else if(spark.kind==='flash'){const glow=ctx!.createRadialGradient(x,y,0,x,y,size);glow.addColorStop(0,'#fff');glow.addColorStop(.25,'#fff');glow.addColorStop(1,'#ffffff00');ctx!.fillStyle=glow;ctx!.fillRect(x-size,y-size,size*2,size*2);}else{ctx!.beginPath();ctx!.ellipse(x,y,size,size,0,0,Math.PI*2);ctx!.fill();}ctx!.restore();}
+ paintAtmosphere(ctx!,width,height,pose,poses,models,true);
+ if(pose.candle||night>.01){const iz=1/(8-light.tip.z),x=rw/2+light.tip.x*f*iz,y=rh/2-light.tip.y*f*iz;paintFlame(ctx!,x,y,light.height*f*iz,pose.motion?pose.time:0,light.intensity,night);}
+ }
+ return {resize,render,dispose(){ctx!.clearRect(0,0,rw,rh);off.width=off.height=1;}};
+}

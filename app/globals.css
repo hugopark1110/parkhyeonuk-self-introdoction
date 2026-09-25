@@ -101,6 +101,3 @@ html{scrollbar-gutter:stable}
 .home-candle[data-lit=true] .inspection-details small{color:#a79b87}
 @media(max-width:699px),(max-width:899px) and (min-height:600px){.inspection-exit{right:20px;top:18px;padding:9px 17px;min-height:44px}.interest-note.inspection-details{left:20px;right:20px;top:auto;bottom:20px;transform:none;width:auto;max-width:none;max-height:calc(100% - 230px);padding:20px 22px;border-radius:20px}.inspection-details h2{font-size:27px;margin:8px 0 12px}.inspection-details p{font-size:18px;line-height:1.65;font-weight:650}.inspection-details small{margin-top:18px;font-size:14px}.inspection-details>span{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.interest-note.inspection-details{animation:none}}
-
-.feature-image.feature-fiction-cover{background:linear-gradient(145deg,#334438,#142219)}
-.feature-fiction-title{position:absolute;left:8%;bottom:9%;z-index:1;color:#f4f5eb;font-size:clamp(2.5rem,5vw,5rem);font-weight:500;letter-spacing:-.06em;line-height:1}

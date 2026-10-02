@@ -29,6 +29,8 @@ class VisitorFeedback extends HTMLElement{
  static observedAttributes=['thread'];
  constructor(){super();this.attachShadow({mode:'open'});this.seq=0;this.data=null;this.busy=false;this.visible=false;this.onOutside=e=>{if(!e.composedPath().includes(this))this.closePicker(false);};this.onUpdate=e=>{if(e.detail===this.thread&&this.visible)this.load();};}
  get thread(){return this.getAttribute('thread')||'';}
+ // React assigns existing custom-element properties when opening a story.
+ set thread(value){if(value==null)this.removeAttribute('thread');else this.setAttribute('thread',String(value));}
  get draftKey(){return 'feedback-draft:'+this.thread;}
  connectedCallback(){
   this.setup();

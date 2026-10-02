@@ -1,0 +1,3032 @@
+[
+  {
+    "kind": "😀",
+    "emoji": "😀",
+    "label": "활짝웃음",
+    "group": "표정"
+  },
+  {
+    "kind": "😃",
+    "emoji": "😃",
+    "label": "웃음",
+    "group": "표정"
+  },
+  {
+    "kind": "😄",
+    "emoji": "😄",
+    "label": "행복",
+    "group": "표정"
+  },
+  {
+    "kind": "😁",
+    "emoji": "😁",
+    "label": "씩웃음",
+    "group": "표정"
+  },
+  {
+    "kind": "😆",
+    "emoji": "😆",
+    "label": "신남",
+    "group": "표정"
+  },
+  {
+    "kind": "😅",
+    "emoji": "😅",
+    "label": "머쓱웃음",
+    "group": "표정"
+  },
+  {
+    "kind": "😂",
+    "emoji": "😂",
+    "label": "웃겨",
+    "group": "표정"
+  },
+  {
+    "kind": "🤣",
+    "emoji": "🤣",
+    "label": "빵터짐",
+    "group": "표정"
+  },
+  {
+    "kind": "😊",
+    "emoji": "😊",
+    "label": "미소",
+    "group": "표정"
+  },
+  {
+    "kind": "😇",
+    "emoji": "😇",
+    "label": "천사",
+    "group": "표정"
+  },
+  {
+    "kind": "🙂",
+    "emoji": "🙂",
+    "label": "좋아요",
+    "group": "표정"
+  },
+  {
+    "kind": "🙃",
+    "emoji": "🙃",
+    "label": "거꾸로웃음",
+    "group": "표정"
+  },
+  {
+    "kind": "😉",
+    "emoji": "😉",
+    "label": "윙크",
+    "group": "표정"
+  },
+  {
+    "kind": "😌",
+    "emoji": "😌",
+    "label": "편안",
+    "group": "표정"
+  },
+  {
+    "kind": "😍",
+    "emoji": "😍",
+    "label": "반했어요",
+    "group": "표정"
+  },
+  {
+    "kind": "🥰",
+    "emoji": "🥰",
+    "label": "사랑스러워",
+    "group": "표정"
+  },
+  {
+    "kind": "😘",
+    "emoji": "😘",
+    "label": "뽀뽀",
+    "group": "표정"
+  },
+  {
+    "kind": "😗",
+    "emoji": "😗",
+    "label": "입맞춤",
+    "group": "표정"
+  },
+  {
+    "kind": "😙",
+    "emoji": "😙",
+    "label": "키스",
+    "group": "표정"
+  },
+  {
+    "kind": "😚",
+    "emoji": "😚",
+    "label": "수줍음",
+    "group": "표정"
+  },
+  {
+    "kind": "😋",
+    "emoji": "😋",
+    "label": "맛있어",
+    "group": "표정"
+  },
+  {
+    "kind": "😛",
+    "emoji": "😛",
+    "label": "메롱",
+    "group": "표정"
+  },
+  {
+    "kind": "😝",
+    "emoji": "😝",
+    "label": "장난",
+    "group": "표정"
+  },
+  {
+    "kind": "😜",
+    "emoji": "😜",
+    "label": "윙크메롱",
+    "group": "표정"
+  },
+  {
+    "kind": "🤪",
+    "emoji": "🤪",
+    "label": "엉뚱",
+    "group": "표정"
+  },
+  {
+    "kind": "🤨",
+    "emoji": "🤨",
+    "label": "의심",
+    "group": "표정"
+  },
+  {
+    "kind": "🧐",
+    "emoji": "🧐",
+    "label": "관찰",
+    "group": "표정"
+  },
+  {
+    "kind": "🤓",
+    "emoji": "🤓",
+    "label": "공부",
+    "group": "표정"
+  },
+  {
+    "kind": "😎",
+    "emoji": "😎",
+    "label": "멋짐",
+    "group": "표정"
+  },
+  {
+    "kind": "🥸",
+    "emoji": "🥸",
+    "label": "변장",
+    "group": "표정"
+  },
+  {
+    "kind": "🤩",
+    "emoji": "🤩",
+    "label": "반짝눈",
+    "group": "표정"
+  },
+  {
+    "kind": "🥳",
+    "emoji": "🥳",
+    "label": "축하",
+    "group": "표정"
+  },
+  {
+    "kind": "😏",
+    "emoji": "😏",
+    "label": "씨익",
+    "group": "표정"
+  },
+  {
+    "kind": "😒",
+    "emoji": "😒",
+    "label": "시큰둥",
+    "group": "표정"
+  },
+  {
+    "kind": "😞",
+    "emoji": "😞",
+    "label": "실망",
+    "group": "표정"
+  },
+  {
+    "kind": "😔",
+    "emoji": "😔",
+    "label": "시무룩",
+    "group": "표정"
+  },
+  {
+    "kind": "😟",
+    "emoji": "😟",
+    "label": "걱정",
+    "group": "표정"
+  },
+  {
+    "kind": "😕",
+    "emoji": "😕",
+    "label": "갸우뚱",
+    "group": "표정"
+  },
+  {
+    "kind": "🙁",
+    "emoji": "🙁",
+    "label": "아쉬움",
+    "group": "표정"
+  },
+  {
+    "kind": "☹️",
+    "emoji": "☹️",
+    "label": "슬픔",
+    "group": "표정"
+  },
+  {
+    "kind": "😣",
+    "emoji": "😣",
+    "label": "힘들어",
+    "group": "표정"
+  },
+  {
+    "kind": "😖",
+    "emoji": "😖",
+    "label": "괴로워",
+    "group": "표정"
+  },
+  {
+    "kind": "😫",
+    "emoji": "😫",
+    "label": "지쳤어",
+    "group": "표정"
+  },
+  {
+    "kind": "😩",
+    "emoji": "😩",
+    "label": "피곤",
+    "group": "표정"
+  },
+  {
+    "kind": "🥺",
+    "emoji": "🥺",
+    "label": "울먹",
+    "group": "표정"
+  },
+  {
+    "kind": "🥹",
+    "emoji": "🥹",
+    "label": "감동",
+    "group": "표정"
+  },
+  {
+    "kind": "😢",
+    "emoji": "😢",
+    "label": "눈물",
+    "group": "표정"
+  },
+  {
+    "kind": "😭",
+    "emoji": "😭",
+    "label": "오열",
+    "group": "표정"
+  },
+  {
+    "kind": "😤",
+    "emoji": "😤",
+    "label": "흥",
+    "group": "표정"
+  },
+  {
+    "kind": "😠",
+    "emoji": "😠",
+    "label": "화남",
+    "group": "표정"
+  },
+  {
+    "kind": "😡",
+    "emoji": "😡",
+    "label": "분노",
+    "group": "표정"
+  },
+  {
+    "kind": "🤯",
+    "emoji": "🤯",
+    "label": "충격",
+    "group": "표정"
+  },
+  {
+    "kind": "😳",
+    "emoji": "😳",
+    "label": "당황",
+    "group": "표정"
+  },
+  {
+    "kind": "🥵",
+    "emoji": "🥵",
+    "label": "더워",
+    "group": "표정"
+  },
+  {
+    "kind": "🥶",
+    "emoji": "🥶",
+    "label": "추워",
+    "group": "표정"
+  },
+  {
+    "kind": "😱",
+    "emoji": "😱",
+    "label": "깜짝",
+    "group": "표정"
+  },
+  {
+    "kind": "😨",
+    "emoji": "😨",
+    "label": "무서워",
+    "group": "표정"
+  },
+  {
+    "kind": "😰",
+    "emoji": "😰",
+    "label": "식은땀",
+    "group": "표정"
+  },
+  {
+    "kind": "😥",
+    "emoji": "😥",
+    "label": "속상",
+    "group": "표정"
+  },
+  {
+    "kind": "😓",
+    "emoji": "😓",
+    "label": "땀",
+    "group": "표정"
+  },
+  {
+    "kind": "🤗",
+    "emoji": "🤗",
+    "label": "포옹",
+    "group": "표정"
+  },
+  {
+    "kind": "🤔",
+    "emoji": "🤔",
+    "label": "생각",
+    "group": "표정"
+  },
+  {
+    "kind": "🤭",
+    "emoji": "🤭",
+    "label": "입가림",
+    "group": "표정"
+  },
+  {
+    "kind": "🫢",
+    "emoji": "🫢",
+    "label": "놀람",
+    "group": "표정"
+  },
+  {
+    "kind": "🫣",
+    "emoji": "🫣",
+    "label": "빼꼼",
+    "group": "표정"
+  },
+  {
+    "kind": "🤫",
+    "emoji": "🤫",
+    "label": "쉿",
+    "group": "표정"
+  },
+  {
+    "kind": "🤥",
+    "emoji": "🤥",
+    "label": "거짓말",
+    "group": "표정"
+  },
+  {
+    "kind": "😶",
+    "emoji": "😶",
+    "label": "말없음",
+    "group": "표정"
+  },
+  {
+    "kind": "🫥",
+    "emoji": "🫥",
+    "label": "투명인간",
+    "group": "표정"
+  },
+  {
+    "kind": "😐",
+    "emoji": "😐",
+    "label": "무표정",
+    "group": "표정"
+  },
+  {
+    "kind": "😑",
+    "emoji": "😑",
+    "label": "할말없음",
+    "group": "표정"
+  },
+  {
+    "kind": "😬",
+    "emoji": "😬",
+    "label": "난감",
+    "group": "표정"
+  },
+  {
+    "kind": "🙄",
+    "emoji": "🙄",
+    "label": "눈굴림",
+    "group": "표정"
+  },
+  {
+    "kind": "😯",
+    "emoji": "😯",
+    "label": "오",
+    "group": "표정"
+  },
+  {
+    "kind": "😦",
+    "emoji": "😦",
+    "label": "헉",
+    "group": "표정"
+  },
+  {
+    "kind": "😧",
+    "emoji": "😧",
+    "label": "불안",
+    "group": "표정"
+  },
+  {
+    "kind": "wow",
+    "emoji": "😮",
+    "label": "놀라워요",
+    "group": "표정"
+  },
+  {
+    "kind": "😲",
+    "emoji": "😲",
+    "label": "놀랐어",
+    "group": "표정"
+  },
+  {
+    "kind": "🥱",
+    "emoji": "🥱",
+    "label": "하품",
+    "group": "표정"
+  },
+  {
+    "kind": "😴",
+    "emoji": "😴",
+    "label": "잠",
+    "group": "표정"
+  },
+  {
+    "kind": "😪",
+    "emoji": "😪",
+    "label": "졸려",
+    "group": "표정"
+  },
+  {
+    "kind": "😮‍💨",
+    "emoji": "😮‍💨",
+    "label": "한숨",
+    "group": "표정"
+  },
+  {
+    "kind": "🫠",
+    "emoji": "🫠",
+    "label": "녹아내림",
+    "group": "표정"
+  },
+  {
+    "kind": "🫡",
+    "emoji": "🫡",
+    "label": "경례",
+    "group": "표정"
+  },
+  {
+    "kind": "🤤",
+    "emoji": "🤤",
+    "label": "군침",
+    "group": "표정"
+  },
+  {
+    "kind": "😵",
+    "emoji": "😵",
+    "label": "어질어질",
+    "group": "표정"
+  },
+  {
+    "kind": "😵‍💫",
+    "emoji": "😵‍💫",
+    "label": "빙글빙글",
+    "group": "표정"
+  },
+  {
+    "kind": "🤐",
+    "emoji": "🤐",
+    "label": "비밀",
+    "group": "표정"
+  },
+  {
+    "kind": "🥴",
+    "emoji": "🥴",
+    "label": "헤롱",
+    "group": "표정"
+  },
+  {
+    "kind": "🤢",
+    "emoji": "🤢",
+    "label": "울렁",
+    "group": "표정"
+  },
+  {
+    "kind": "🤮",
+    "emoji": "🤮",
+    "label": "토해",
+    "group": "표정"
+  },
+  {
+    "kind": "🤧",
+    "emoji": "🤧",
+    "label": "재채기",
+    "group": "표정"
+  },
+  {
+    "kind": "😷",
+    "emoji": "😷",
+    "label": "마스크",
+    "group": "표정"
+  },
+  {
+    "kind": "🤒",
+    "emoji": "🤒",
+    "label": "아파",
+    "group": "표정"
+  },
+  {
+    "kind": "🤕",
+    "emoji": "🤕",
+    "label": "다쳤어",
+    "group": "표정"
+  },
+  {
+    "kind": "🤑",
+    "emoji": "🤑",
+    "label": "부자",
+    "group": "표정"
+  },
+  {
+    "kind": "🤠",
+    "emoji": "🤠",
+    "label": "카우보이",
+    "group": "표정"
+  },
+  {
+    "kind": "😈",
+    "emoji": "😈",
+    "label": "장난악마",
+    "group": "표정"
+  },
+  {
+    "kind": "👿",
+    "emoji": "👿",
+    "label": "화난악마",
+    "group": "표정"
+  },
+  {
+    "kind": "👻",
+    "emoji": "👻",
+    "label": "유령",
+    "group": "표정"
+  },
+  {
+    "kind": "💀",
+    "emoji": "💀",
+    "label": "해골",
+    "group": "표정"
+  },
+  {
+    "kind": "☠️",
+    "emoji": "☠️",
+    "label": "위험",
+    "group": "표정"
+  },
+  {
+    "kind": "👽",
+    "emoji": "👽",
+    "label": "외계인",
+    "group": "표정"
+  },
+  {
+    "kind": "👾",
+    "emoji": "👾",
+    "label": "게임",
+    "group": "표정"
+  },
+  {
+    "kind": "🤖",
+    "emoji": "🤖",
+    "label": "로봇",
+    "group": "표정"
+  },
+  {
+    "kind": "💩",
+    "emoji": "💩",
+    "label": "똥",
+    "group": "표정"
+  },
+  {
+    "kind": "🤡",
+    "emoji": "🤡",
+    "label": "광대",
+    "group": "표정"
+  },
+  {
+    "kind": "sad",
+    "emoji": "🥲",
+    "label": "마음이찡해요",
+    "group": "표정"
+  },
+  {
+    "kind": "heart",
+    "emoji": "❤️",
+    "label": "공감해요",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🧡",
+    "emoji": "🧡",
+    "label": "주황하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💛",
+    "emoji": "💛",
+    "label": "노랑하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💚",
+    "emoji": "💚",
+    "label": "초록하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💙",
+    "emoji": "💙",
+    "label": "파랑하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💜",
+    "emoji": "💜",
+    "label": "보라하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🖤",
+    "emoji": "🖤",
+    "label": "검정하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤍",
+    "emoji": "🤍",
+    "label": "흰하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤎",
+    "emoji": "🤎",
+    "label": "갈색하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🩷",
+    "emoji": "🩷",
+    "label": "분홍하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🩵",
+    "emoji": "🩵",
+    "label": "하늘하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🩶",
+    "emoji": "🩶",
+    "label": "회색하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💔",
+    "emoji": "💔",
+    "label": "상처",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "❤️‍🩹",
+    "emoji": "❤️‍🩹",
+    "label": "회복",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "❤️‍🔥",
+    "emoji": "❤️‍🔥",
+    "label": "불타는마음",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "❣️",
+    "emoji": "❣️",
+    "label": "하트느낌표",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💕",
+    "emoji": "💕",
+    "label": "두하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💞",
+    "emoji": "💞",
+    "label": "돌아가는하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💓",
+    "emoji": "💓",
+    "label": "두근",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💗",
+    "emoji": "💗",
+    "label": "커지는마음",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💖",
+    "emoji": "💖",
+    "label": "반짝하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💘",
+    "emoji": "💘",
+    "label": "큐피드",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💝",
+    "emoji": "💝",
+    "label": "선물하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💟",
+    "emoji": "💟",
+    "label": "마음",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🫶",
+    "emoji": "🫶",
+    "label": "손하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "like",
+    "emoji": "👍",
+    "label": "좋아요",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👎",
+    "emoji": "👎",
+    "label": "별로",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "clap",
+    "emoji": "👏",
+    "label": "멋져요",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🙌",
+    "emoji": "🙌",
+    "label": "만세",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👐",
+    "emoji": "👐",
+    "label": "두손",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤲",
+    "emoji": "🤲",
+    "label": "함께",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🙏",
+    "emoji": "🙏",
+    "label": "고마워요",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤝",
+    "emoji": "🤝",
+    "label": "악수",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "💪",
+    "emoji": "💪",
+    "label": "힘내요",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🦾",
+    "emoji": "🦾",
+    "label": "강해요",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "✊",
+    "emoji": "✊",
+    "label": "파이팅",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👊",
+    "emoji": "👊",
+    "label": "주먹",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤜",
+    "emoji": "🤜",
+    "label": "주먹인사",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤛",
+    "emoji": "🤛",
+    "label": "주먹맞대기",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "✌️",
+    "emoji": "✌️",
+    "label": "브이",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤞",
+    "emoji": "🤞",
+    "label": "행운",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🫰",
+    "emoji": "🫰",
+    "label": "핑거하트",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤟",
+    "emoji": "🤟",
+    "label": "사랑해",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤘",
+    "emoji": "🤘",
+    "label": "록",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤙",
+    "emoji": "🤙",
+    "label": "연락해",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👌",
+    "emoji": "👌",
+    "label": "완벽",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤌",
+    "emoji": "🤌",
+    "label": "손끝",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤏",
+    "emoji": "🤏",
+    "label": "조금",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👈",
+    "emoji": "👈",
+    "label": "왼쪽",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👉",
+    "emoji": "👉",
+    "label": "오른쪽",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👆",
+    "emoji": "👆",
+    "label": "위",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👇",
+    "emoji": "👇",
+    "label": "아래",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "☝️",
+    "emoji": "☝️",
+    "label": "주목",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👋",
+    "emoji": "👋",
+    "label": "안녕",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🤚",
+    "emoji": "🤚",
+    "label": "손등",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🖐️",
+    "emoji": "🖐️",
+    "label": "손바닥",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "✋",
+    "emoji": "✋",
+    "label": "잠깐",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🖖",
+    "emoji": "🖖",
+    "label": "평화",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "hug",
+    "emoji": "🫂",
+    "label": "응원해요",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🫵",
+    "emoji": "🫵",
+    "label": "바로너",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👀",
+    "emoji": "👀",
+    "label": "보고있어",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "👁️",
+    "emoji": "👁️",
+    "label": "눈",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🧠",
+    "emoji": "🧠",
+    "label": "아이디어",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🫀",
+    "emoji": "🫀",
+    "label": "심장",
+    "group": "마음·손짓"
+  },
+  {
+    "kind": "🐶",
+    "emoji": "🐶",
+    "label": "강아지",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐱",
+    "emoji": "🐱",
+    "label": "고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😺",
+    "emoji": "😺",
+    "label": "웃는고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😸",
+    "emoji": "😸",
+    "label": "신난고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😹",
+    "emoji": "😹",
+    "label": "웃겨고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😻",
+    "emoji": "😻",
+    "label": "반한고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😼",
+    "emoji": "😼",
+    "label": "씨익고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😽",
+    "emoji": "😽",
+    "label": "뽀뽀고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🙀",
+    "emoji": "🙀",
+    "label": "놀란고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😿",
+    "emoji": "😿",
+    "label": "우는고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "😾",
+    "emoji": "😾",
+    "label": "화난고양이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐭",
+    "emoji": "🐭",
+    "label": "쥐",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐹",
+    "emoji": "🐹",
+    "label": "햄스터",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐰",
+    "emoji": "🐰",
+    "label": "토끼",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦊",
+    "emoji": "🦊",
+    "label": "여우",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐻",
+    "emoji": "🐻",
+    "label": "곰",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐼",
+    "emoji": "🐼",
+    "label": "판다",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐨",
+    "emoji": "🐨",
+    "label": "코알라",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐯",
+    "emoji": "🐯",
+    "label": "호랑이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦁",
+    "emoji": "🦁",
+    "label": "사자",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐮",
+    "emoji": "🐮",
+    "label": "소",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐷",
+    "emoji": "🐷",
+    "label": "돼지",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐸",
+    "emoji": "🐸",
+    "label": "개구리",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐵",
+    "emoji": "🐵",
+    "label": "원숭이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🙈",
+    "emoji": "🙈",
+    "label": "안볼래",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🙉",
+    "emoji": "🙉",
+    "label": "안들을래",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🙊",
+    "emoji": "🙊",
+    "label": "말안할래",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐔",
+    "emoji": "🐔",
+    "label": "닭",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐧",
+    "emoji": "🐧",
+    "label": "펭귄",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐦",
+    "emoji": "🐦",
+    "label": "새",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐤",
+    "emoji": "🐤",
+    "label": "병아리",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦆",
+    "emoji": "🦆",
+    "label": "오리",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦉",
+    "emoji": "🦉",
+    "label": "부엉이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦋",
+    "emoji": "🦋",
+    "label": "나비",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐝",
+    "emoji": "🐝",
+    "label": "벌",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐛",
+    "emoji": "🐛",
+    "label": "애벌레",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐌",
+    "emoji": "🐌",
+    "label": "달팽이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐢",
+    "emoji": "🐢",
+    "label": "거북이",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐬",
+    "emoji": "🐬",
+    "label": "돌고래",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐳",
+    "emoji": "🐳",
+    "label": "고래",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦈",
+    "emoji": "🦈",
+    "label": "상어",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐙",
+    "emoji": "🐙",
+    "label": "문어",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦀",
+    "emoji": "🦀",
+    "label": "게",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦐",
+    "emoji": "🦐",
+    "label": "새우",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦑",
+    "emoji": "🦑",
+    "label": "오징어",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦄",
+    "emoji": "🦄",
+    "label": "유니콘",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦖",
+    "emoji": "🦖",
+    "label": "공룡",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🐉",
+    "emoji": "🐉",
+    "label": "용",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦥",
+    "emoji": "🦥",
+    "label": "나무늘보",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🦦",
+    "emoji": "🦦",
+    "label": "수달",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌱",
+    "emoji": "🌱",
+    "label": "새싹",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌿",
+    "emoji": "🌿",
+    "label": "풀",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🍀",
+    "emoji": "🍀",
+    "label": "네잎클로버",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌳",
+    "emoji": "🌳",
+    "label": "나무",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌲",
+    "emoji": "🌲",
+    "label": "소나무",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌴",
+    "emoji": "🌴",
+    "label": "야자수",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌵",
+    "emoji": "🌵",
+    "label": "선인장",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌸",
+    "emoji": "🌸",
+    "label": "벚꽃",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌷",
+    "emoji": "🌷",
+    "label": "튤립",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌹",
+    "emoji": "🌹",
+    "label": "장미",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌻",
+    "emoji": "🌻",
+    "label": "해바라기",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌼",
+    "emoji": "🌼",
+    "label": "꽃",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌺",
+    "emoji": "🌺",
+    "label": "무궁화",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🍁",
+    "emoji": "🍁",
+    "label": "단풍",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🍂",
+    "emoji": "🍂",
+    "label": "낙엽",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🍃",
+    "emoji": "🍃",
+    "label": "바람잎",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🌾",
+    "emoji": "🌾",
+    "label": "벼",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🍄",
+    "emoji": "🍄",
+    "label": "버섯",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🪴",
+    "emoji": "🪴",
+    "label": "화분",
+    "group": "동물·자연"
+  },
+  {
+    "kind": "🍎",
+    "emoji": "🍎",
+    "label": "사과",
+    "group": "음식"
+  },
+  {
+    "kind": "🍊",
+    "emoji": "🍊",
+    "label": "귤",
+    "group": "음식"
+  },
+  {
+    "kind": "🍋",
+    "emoji": "🍋",
+    "label": "레몬",
+    "group": "음식"
+  },
+  {
+    "kind": "🍌",
+    "emoji": "🍌",
+    "label": "바나나",
+    "group": "음식"
+  },
+  {
+    "kind": "🍉",
+    "emoji": "🍉",
+    "label": "수박",
+    "group": "음식"
+  },
+  {
+    "kind": "🍇",
+    "emoji": "🍇",
+    "label": "포도",
+    "group": "음식"
+  },
+  {
+    "kind": "🍓",
+    "emoji": "🍓",
+    "label": "딸기",
+    "group": "음식"
+  },
+  {
+    "kind": "🫐",
+    "emoji": "🫐",
+    "label": "블루베리",
+    "group": "음식"
+  },
+  {
+    "kind": "🍈",
+    "emoji": "🍈",
+    "label": "멜론",
+    "group": "음식"
+  },
+  {
+    "kind": "🍒",
+    "emoji": "🍒",
+    "label": "체리",
+    "group": "음식"
+  },
+  {
+    "kind": "🍑",
+    "emoji": "🍑",
+    "label": "복숭아",
+    "group": "음식"
+  },
+  {
+    "kind": "🥭",
+    "emoji": "🥭",
+    "label": "망고",
+    "group": "음식"
+  },
+  {
+    "kind": "🍍",
+    "emoji": "🍍",
+    "label": "파인애플",
+    "group": "음식"
+  },
+  {
+    "kind": "🥝",
+    "emoji": "🥝",
+    "label": "키위",
+    "group": "음식"
+  },
+  {
+    "kind": "🥑",
+    "emoji": "🥑",
+    "label": "아보카도",
+    "group": "음식"
+  },
+  {
+    "kind": "🍅",
+    "emoji": "🍅",
+    "label": "토마토",
+    "group": "음식"
+  },
+  {
+    "kind": "🥕",
+    "emoji": "🥕",
+    "label": "당근",
+    "group": "음식"
+  },
+  {
+    "kind": "🌽",
+    "emoji": "🌽",
+    "label": "옥수수",
+    "group": "음식"
+  },
+  {
+    "kind": "🥦",
+    "emoji": "🥦",
+    "label": "브로콜리",
+    "group": "음식"
+  },
+  {
+    "kind": "🥔",
+    "emoji": "🥔",
+    "label": "감자",
+    "group": "음식"
+  },
+  {
+    "kind": "🍞",
+    "emoji": "🍞",
+    "label": "빵",
+    "group": "음식"
+  },
+  {
+    "kind": "🥐",
+    "emoji": "🥐",
+    "label": "크루아상",
+    "group": "음식"
+  },
+  {
+    "kind": "🥖",
+    "emoji": "🥖",
+    "label": "바게트",
+    "group": "음식"
+  },
+  {
+    "kind": "🥯",
+    "emoji": "🥯",
+    "label": "베이글",
+    "group": "음식"
+  },
+  {
+    "kind": "🧀",
+    "emoji": "🧀",
+    "label": "치즈",
+    "group": "음식"
+  },
+  {
+    "kind": "🥚",
+    "emoji": "🥚",
+    "label": "달걀",
+    "group": "음식"
+  },
+  {
+    "kind": "🍳",
+    "emoji": "🍳",
+    "label": "계란프라이",
+    "group": "음식"
+  },
+  {
+    "kind": "🥞",
+    "emoji": "🥞",
+    "label": "팬케이크",
+    "group": "음식"
+  },
+  {
+    "kind": "🧇",
+    "emoji": "🧇",
+    "label": "와플",
+    "group": "음식"
+  },
+  {
+    "kind": "🥓",
+    "emoji": "🥓",
+    "label": "베이컨",
+    "group": "음식"
+  },
+  {
+    "kind": "🍔",
+    "emoji": "🍔",
+    "label": "햄버거",
+    "group": "음식"
+  },
+  {
+    "kind": "🍟",
+    "emoji": "🍟",
+    "label": "감자튀김",
+    "group": "음식"
+  },
+  {
+    "kind": "🍕",
+    "emoji": "🍕",
+    "label": "피자",
+    "group": "음식"
+  },
+  {
+    "kind": "🌭",
+    "emoji": "🌭",
+    "label": "핫도그",
+    "group": "음식"
+  },
+  {
+    "kind": "🥪",
+    "emoji": "🥪",
+    "label": "샌드위치",
+    "group": "음식"
+  },
+  {
+    "kind": "🌮",
+    "emoji": "🌮",
+    "label": "타코",
+    "group": "음식"
+  },
+  {
+    "kind": "🍜",
+    "emoji": "🍜",
+    "label": "라면",
+    "group": "음식"
+  },
+  {
+    "kind": "🍝",
+    "emoji": "🍝",
+    "label": "파스타",
+    "group": "음식"
+  },
+  {
+    "kind": "🍣",
+    "emoji": "🍣",
+    "label": "초밥",
+    "group": "음식"
+  },
+  {
+    "kind": "🍙",
+    "emoji": "🍙",
+    "label": "주먹밥",
+    "group": "음식"
+  },
+  {
+    "kind": "🍚",
+    "emoji": "🍚",
+    "label": "밥",
+    "group": "음식"
+  },
+  {
+    "kind": "🍛",
+    "emoji": "🍛",
+    "label": "카레",
+    "group": "음식"
+  },
+  {
+    "kind": "🥟",
+    "emoji": "🥟",
+    "label": "만두",
+    "group": "음식"
+  },
+  {
+    "kind": "🍤",
+    "emoji": "🍤",
+    "label": "새우튀김",
+    "group": "음식"
+  },
+  {
+    "kind": "🍗",
+    "emoji": "🍗",
+    "label": "치킨",
+    "group": "음식"
+  },
+  {
+    "kind": "🍖",
+    "emoji": "🍖",
+    "label": "고기",
+    "group": "음식"
+  },
+  {
+    "kind": "🥩",
+    "emoji": "🥩",
+    "label": "스테이크",
+    "group": "음식"
+  },
+  {
+    "kind": "🍦",
+    "emoji": "🍦",
+    "label": "아이스크림",
+    "group": "음식"
+  },
+  {
+    "kind": "🍧",
+    "emoji": "🍧",
+    "label": "빙수",
+    "group": "음식"
+  },
+  {
+    "kind": "🍨",
+    "emoji": "🍨",
+    "label": "아이스크림컵",
+    "group": "음식"
+  },
+  {
+    "kind": "🍩",
+    "emoji": "🍩",
+    "label": "도넛",
+    "group": "음식"
+  },
+  {
+    "kind": "🍪",
+    "emoji": "🍪",
+    "label": "쿠키",
+    "group": "음식"
+  },
+  {
+    "kind": "🎂",
+    "emoji": "🎂",
+    "label": "생일케이크",
+    "group": "음식"
+  },
+  {
+    "kind": "🍰",
+    "emoji": "🍰",
+    "label": "케이크",
+    "group": "음식"
+  },
+  {
+    "kind": "🧁",
+    "emoji": "🧁",
+    "label": "컵케이크",
+    "group": "음식"
+  },
+  {
+    "kind": "🥧",
+    "emoji": "🥧",
+    "label": "파이",
+    "group": "음식"
+  },
+  {
+    "kind": "🍫",
+    "emoji": "🍫",
+    "label": "초콜릿",
+    "group": "음식"
+  },
+  {
+    "kind": "🍬",
+    "emoji": "🍬",
+    "label": "사탕",
+    "group": "음식"
+  },
+  {
+    "kind": "🍭",
+    "emoji": "🍭",
+    "label": "막대사탕",
+    "group": "음식"
+  },
+  {
+    "kind": "🍮",
+    "emoji": "🍮",
+    "label": "푸딩",
+    "group": "음식"
+  },
+  {
+    "kind": "🍯",
+    "emoji": "🍯",
+    "label": "꿀",
+    "group": "음식"
+  },
+  {
+    "kind": "☕",
+    "emoji": "☕",
+    "label": "커피",
+    "group": "음식"
+  },
+  {
+    "kind": "🍵",
+    "emoji": "🍵",
+    "label": "차",
+    "group": "음식"
+  },
+  {
+    "kind": "🧋",
+    "emoji": "🧋",
+    "label": "버블티",
+    "group": "음식"
+  },
+  {
+    "kind": "🥤",
+    "emoji": "🥤",
+    "label": "음료",
+    "group": "음식"
+  },
+  {
+    "kind": "🧃",
+    "emoji": "🧃",
+    "label": "주스",
+    "group": "음식"
+  },
+  {
+    "kind": "🥛",
+    "emoji": "🥛",
+    "label": "우유",
+    "group": "음식"
+  },
+  {
+    "kind": "🍺",
+    "emoji": "🍺",
+    "label": "맥주",
+    "group": "음식"
+  },
+  {
+    "kind": "🍻",
+    "emoji": "🍻",
+    "label": "건배",
+    "group": "음식"
+  },
+  {
+    "kind": "🥂",
+    "emoji": "🥂",
+    "label": "축배",
+    "group": "음식"
+  },
+  {
+    "kind": "🍷",
+    "emoji": "🍷",
+    "label": "와인",
+    "group": "음식"
+  },
+  {
+    "kind": "🍸",
+    "emoji": "🍸",
+    "label": "칵테일",
+    "group": "음식"
+  },
+  {
+    "kind": "🍹",
+    "emoji": "🍹",
+    "label": "트로피컬",
+    "group": "음식"
+  },
+  {
+    "kind": "🍶",
+    "emoji": "🍶",
+    "label": "사케",
+    "group": "음식"
+  },
+  {
+    "kind": "📷",
+    "emoji": "📷",
+    "label": "카메라",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "📸",
+    "emoji": "📸",
+    "label": "사진",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎥",
+    "emoji": "🎥",
+    "label": "영화카메라",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎬",
+    "emoji": "🎬",
+    "label": "영화",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎨",
+    "emoji": "🎨",
+    "label": "미술",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🖌️",
+    "emoji": "🖌️",
+    "label": "붓",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🖍️",
+    "emoji": "🖍️",
+    "label": "크레용",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "✏️",
+    "emoji": "✏️",
+    "label": "연필",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "📝",
+    "emoji": "📝",
+    "label": "메모",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "📚",
+    "emoji": "📚",
+    "label": "책",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "📖",
+    "emoji": "📖",
+    "label": "독서",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "💻",
+    "emoji": "💻",
+    "label": "노트북",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🖥️",
+    "emoji": "🖥️",
+    "label": "컴퓨터",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "⌨️",
+    "emoji": "⌨️",
+    "label": "키보드",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "📱",
+    "emoji": "📱",
+    "label": "휴대폰",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎮",
+    "emoji": "🎮",
+    "label": "게임",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🕹️",
+    "emoji": "🕹️",
+    "label": "조이스틱",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎧",
+    "emoji": "🎧",
+    "label": "헤드폰",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎵",
+    "emoji": "🎵",
+    "label": "음악",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎶",
+    "emoji": "🎶",
+    "label": "노래",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎤",
+    "emoji": "🎤",
+    "label": "마이크",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎹",
+    "emoji": "🎹",
+    "label": "피아노",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎸",
+    "emoji": "🎸",
+    "label": "기타",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🥁",
+    "emoji": "🥁",
+    "label": "드럼",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎻",
+    "emoji": "🎻",
+    "label": "바이올린",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎺",
+    "emoji": "🎺",
+    "label": "트럼펫",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎷",
+    "emoji": "🎷",
+    "label": "색소폰",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎼",
+    "emoji": "🎼",
+    "label": "악보",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "💡",
+    "emoji": "💡",
+    "label": "아이디어",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🔦",
+    "emoji": "🔦",
+    "label": "손전등",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🕯️",
+    "emoji": "🕯️",
+    "label": "촛불",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🪄",
+    "emoji": "🪄",
+    "label": "마법",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🔮",
+    "emoji": "🔮",
+    "label": "수정구슬",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🧸",
+    "emoji": "🧸",
+    "label": "곰인형",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎁",
+    "emoji": "🎁",
+    "label": "선물",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎈",
+    "emoji": "🎈",
+    "label": "풍선",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎀",
+    "emoji": "🎀",
+    "label": "리본",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🪁",
+    "emoji": "🪁",
+    "label": "연",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🧩",
+    "emoji": "🧩",
+    "label": "퍼즐",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎲",
+    "emoji": "🎲",
+    "label": "주사위",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "♟️",
+    "emoji": "♟️",
+    "label": "체스",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏆",
+    "emoji": "🏆",
+    "label": "트로피",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🥇",
+    "emoji": "🥇",
+    "label": "금메달",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🥈",
+    "emoji": "🥈",
+    "label": "은메달",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🥉",
+    "emoji": "🥉",
+    "label": "동메달",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "⚽",
+    "emoji": "⚽",
+    "label": "축구",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏀",
+    "emoji": "🏀",
+    "label": "농구",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏈",
+    "emoji": "🏈",
+    "label": "미식축구",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "⚾",
+    "emoji": "⚾",
+    "label": "야구",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎾",
+    "emoji": "🎾",
+    "label": "테니스",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏐",
+    "emoji": "🏐",
+    "label": "배구",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏓",
+    "emoji": "🏓",
+    "label": "탁구",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏸",
+    "emoji": "🏸",
+    "label": "배드민턴",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏋️",
+    "emoji": "🏋️",
+    "label": "운동",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🚴",
+    "emoji": "🚴",
+    "label": "자전거",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏃",
+    "emoji": "🏃",
+    "label": "달리기",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🧘",
+    "emoji": "🧘",
+    "label": "명상",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🏊",
+    "emoji": "🏊",
+    "label": "수영",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🛹",
+    "emoji": "🛹",
+    "label": "스케이트보드",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🛼",
+    "emoji": "🛼",
+    "label": "롤러스케이트",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🎯",
+    "emoji": "🎯",
+    "label": "명중",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🛒",
+    "emoji": "🛒",
+    "label": "쇼핑",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🧴",
+    "emoji": "🧴",
+    "label": "향수",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🪞",
+    "emoji": "🪞",
+    "label": "거울",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "👑",
+    "emoji": "👑",
+    "label": "왕관",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "💎",
+    "emoji": "💎",
+    "label": "보석",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "💍",
+    "emoji": "💍",
+    "label": "반지",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🕶️",
+    "emoji": "🕶️",
+    "label": "선글라스",
+    "group": "사물·취미"
+  },
+  {
+    "kind": "🚀",
+    "emoji": "🚀",
+    "label": "로켓",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🛸",
+    "emoji": "🛸",
+    "label": "우주선",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "✈️",
+    "emoji": "✈️",
+    "label": "비행기",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚁",
+    "emoji": "🚁",
+    "label": "헬리콥터",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚂",
+    "emoji": "🚂",
+    "label": "기차",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚅",
+    "emoji": "🚅",
+    "label": "고속열차",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚗",
+    "emoji": "🚗",
+    "label": "자동차",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚕",
+    "emoji": "🚕",
+    "label": "택시",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚌",
+    "emoji": "🚌",
+    "label": "버스",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚑",
+    "emoji": "🚑",
+    "label": "구급차",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚒",
+    "emoji": "🚒",
+    "label": "소방차",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚲",
+    "emoji": "🚲",
+    "label": "자전거",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🛵",
+    "emoji": "🛵",
+    "label": "스쿠터",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🚢",
+    "emoji": "🚢",
+    "label": "배",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⛵",
+    "emoji": "⛵",
+    "label": "돛단배",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⚓",
+    "emoji": "⚓",
+    "label": "닻",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🗺️",
+    "emoji": "🗺️",
+    "label": "지도",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🧭",
+    "emoji": "🧭",
+    "label": "나침반",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏠",
+    "emoji": "🏠",
+    "label": "집",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏡",
+    "emoji": "🏡",
+    "label": "정원집",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏙️",
+    "emoji": "🏙️",
+    "label": "도시",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌃",
+    "emoji": "🌃",
+    "label": "밤도시",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌉",
+    "emoji": "🌉",
+    "label": "다리",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏰",
+    "emoji": "🏰",
+    "label": "성",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⛺",
+    "emoji": "⛺",
+    "label": "캠핑",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏕️",
+    "emoji": "🏕️",
+    "label": "야영",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏖️",
+    "emoji": "🏖️",
+    "label": "해변",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏝️",
+    "emoji": "🏝️",
+    "label": "섬",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🏔️",
+    "emoji": "🏔️",
+    "label": "산",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌋",
+    "emoji": "🌋",
+    "label": "화산",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🗻",
+    "emoji": "🗻",
+    "label": "후지산",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌅",
+    "emoji": "🌅",
+    "label": "일출",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌄",
+    "emoji": "🌄",
+    "label": "해돋이",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌠",
+    "emoji": "🌠",
+    "label": "별똥별",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌌",
+    "emoji": "🌌",
+    "label": "은하수",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌈",
+    "emoji": "🌈",
+    "label": "무지개",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⭐",
+    "emoji": "⭐",
+    "label": "별",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌟",
+    "emoji": "🌟",
+    "label": "빛나는별",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "✨",
+    "emoji": "✨",
+    "label": "반짝",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "💫",
+    "emoji": "💫",
+    "label": "반짝임",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "☀️",
+    "emoji": "☀️",
+    "label": "태양",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌤️",
+    "emoji": "🌤️",
+    "label": "맑음",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⛅",
+    "emoji": "⛅",
+    "label": "구름조금",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "☁️",
+    "emoji": "☁️",
+    "label": "구름",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌧️",
+    "emoji": "🌧️",
+    "label": "비",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⛈️",
+    "emoji": "⛈️",
+    "label": "뇌우",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌩️",
+    "emoji": "🌩️",
+    "label": "번개구름",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⚡",
+    "emoji": "⚡",
+    "label": "번개",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "❄️",
+    "emoji": "❄️",
+    "label": "눈",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "☃️",
+    "emoji": "☃️",
+    "label": "눈사람",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "⛄",
+    "emoji": "⛄",
+    "label": "눈사람겨울",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌬️",
+    "emoji": "🌬️",
+    "label": "바람",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "💨",
+    "emoji": "💨",
+    "label": "빠름",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌪️",
+    "emoji": "🌪️",
+    "label": "회오리",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌊",
+    "emoji": "🌊",
+    "label": "파도",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🔥",
+    "emoji": "🔥",
+    "label": "불",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "💧",
+    "emoji": "💧",
+    "label": "물방울",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "☔",
+    "emoji": "☔",
+    "label": "우산",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌙",
+    "emoji": "🌙",
+    "label": "달",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌕",
+    "emoji": "🌕",
+    "label": "보름달",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌚",
+    "emoji": "🌚",
+    "label": "검은달",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌝",
+    "emoji": "🌝",
+    "label": "달님",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🪐",
+    "emoji": "🪐",
+    "label": "행성",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🌍",
+    "emoji": "🌍",
+    "label": "지구",
+    "group": "여행·날씨"
+  },
+  {
+    "kind": "🎉",
+    "emoji": "🎉",
+    "label": "축하해",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🎊",
+    "emoji": "🎊",
+    "label": "축제",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🪅",
+    "emoji": "🪅",
+    "label": "파티",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🪩",
+    "emoji": "🪩",
+    "label": "디스코",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🎆",
+    "emoji": "🎆",
+    "label": "불꽃놀이",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🎇",
+    "emoji": "🎇",
+    "label": "폭죽",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🧨",
+    "emoji": "🧨",
+    "label": "폭죽펑",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "💯",
+    "emoji": "💯",
+    "label": "백점",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "✅",
+    "emoji": "✅",
+    "label": "완료",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "✔️",
+    "emoji": "✔️",
+    "label": "체크",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "☑️",
+    "emoji": "☑️",
+    "label": "체크박스",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "❌",
+    "emoji": "❌",
+    "label": "아니요",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "❎",
+    "emoji": "❎",
+    "label": "엑스",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "⭕",
+    "emoji": "⭕",
+    "label": "동그라미",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔴",
+    "emoji": "🔴",
+    "label": "빨강",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🟠",
+    "emoji": "🟠",
+    "label": "주황",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🟡",
+    "emoji": "🟡",
+    "label": "노랑",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🟢",
+    "emoji": "🟢",
+    "label": "초록",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔵",
+    "emoji": "🔵",
+    "label": "파랑",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🟣",
+    "emoji": "🟣",
+    "label": "보라",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "⚫",
+    "emoji": "⚫",
+    "label": "검정",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "⚪",
+    "emoji": "⚪",
+    "label": "흰색",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🟤",
+    "emoji": "🟤",
+    "label": "갈색",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔺",
+    "emoji": "🔺",
+    "label": "삼각형",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔻",
+    "emoji": "🔻",
+    "label": "역삼각형",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔶",
+    "emoji": "🔶",
+    "label": "주황다이아",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔷",
+    "emoji": "🔷",
+    "label": "파랑다이아",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "💬",
+    "emoji": "💬",
+    "label": "대화",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "💭",
+    "emoji": "💭",
+    "label": "생각말풍선",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🗯️",
+    "emoji": "🗯️",
+    "label": "외침",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "❗",
+    "emoji": "❗",
+    "label": "느낌표",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "❓",
+    "emoji": "❓",
+    "label": "물음표",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "⁉️",
+    "emoji": "⁉️",
+    "label": "뭐야",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "‼️",
+    "emoji": "‼️",
+    "label": "대박",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔔",
+    "emoji": "🔔",
+    "label": "알림",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "📣",
+    "emoji": "📣",
+    "label": "응원",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "📢",
+    "emoji": "📢",
+    "label": "공지",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🚩",
+    "emoji": "🚩",
+    "label": "깃발",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🏁",
+    "emoji": "🏁",
+    "label": "완주",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🏳️‍🌈",
+    "emoji": "🏳️‍🌈",
+    "label": "무지개깃발",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇰🇷",
+    "emoji": "🇰🇷",
+    "label": "대한민국",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇯🇵",
+    "emoji": "🇯🇵",
+    "label": "일본",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇺🇸",
+    "emoji": "🇺🇸",
+    "label": "미국",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇫🇷",
+    "emoji": "🇫🇷",
+    "label": "프랑스",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇬🇧",
+    "emoji": "🇬🇧",
+    "label": "영국",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇨🇦",
+    "emoji": "🇨🇦",
+    "label": "캐나다",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇦🇺",
+    "emoji": "🇦🇺",
+    "label": "호주",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🇮🇹",
+    "emoji": "🇮🇹",
+    "label": "이탈리아",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🆕",
+    "emoji": "🆕",
+    "label": "새로운",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🆒",
+    "emoji": "🆒",
+    "label": "쿨",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🆗",
+    "emoji": "🆗",
+    "label": "오케이",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🆙",
+    "emoji": "🆙",
+    "label": "업",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🆘",
+    "emoji": "🆘",
+    "label": "도움",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔝",
+    "emoji": "🔝",
+    "label": "최고",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "🔜",
+    "emoji": "🔜",
+    "label": "곧",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "♾️",
+    "emoji": "♾️",
+    "label": "무한",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "☮️",
+    "emoji": "☮️",
+    "label": "평화",
+    "group": "기호·축하"
+  },
+  {
+    "kind": "☯️",
+    "emoji": "☯️",
+    "label": "조화",
+    "group": "기호·축하"
+  }
+]

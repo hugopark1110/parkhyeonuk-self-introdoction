@@ -18,7 +18,7 @@ export function useMagneticScroll(root:RefObject<HTMLDivElement|null>,enabled:bo
  const blocked=(target:EventTarget|null)=>{
   if(site.inert||site.dataset.inspection==='true'||document.querySelector('[role="dialog"][data-state="open"]'))return true;
   let el=target instanceof Element?target:null;
-  if(el?.closest('input,textarea,select,[contenteditable="true"],[role="slider"]'))return true;
+  if(el?.closest('visitor-feedback,input,textarea,select,[contenteditable="true"],[role="slider"]'))return true;
   while(el&&el!==document.body&&el!==document.documentElement){const style=getComputedStyle(el);if(/auto|scroll/.test(style.overflowY)&&el.scrollHeight>el.clientHeight+2)return true;el=el.parentElement;}
   return false;
  };

@@ -10,7 +10,9 @@ The fixed upstream is https://parkhyeonuk-still-making.skfkgusdnr75.chatgpt.site
 - GET /api/camera-photos fetches the public camera gallery.
 - GET /api/files/[key] validates the key and redirects to the existing media endpoint, so large video and audio files do not pass through a Vercel Function.
 - /admin redirects to the existing authenticated editor.
-- Write requests on the Vercel frontend return405 and identify the author editor.
+- Content editing requests on the Vercel frontend return 405 and identify the author editor.
+- GET/POST /api/feedback provides public comments, per-entry reactions, and a guestbook through the same backend. Only the anonymous X-Visitor-Token is passed upstream; account cookies and identity headers are never forwarded.
+- Visitor identity and unsent drafts are device-local. All published comments and reaction counts are stored in D1. Visitors can remove their own comments from the browser that created them.
 
 The bridge sends no visitor cookies, authorization, or oai-* identity headers. It uses a fixed upstream origin, a 10-second timeout, fresh reads, strict response validation, and rejects upstream redirects. No Vercel secrets are required. Existing authentication/storage bindings are deliberately absent from this checkout.
 

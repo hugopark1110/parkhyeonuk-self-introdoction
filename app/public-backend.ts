@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { initialEntries, type Entry } from './content';
+import { initialEntries, publishedFilm, type Entry } from './content';
 
 // This public read bridge deliberately has no access to sign-in headers or cookies.
 export const CONTENT_ORIGIN = 'https://parkhyeonuk-still-making.skfkgusdnr75.chatgpt.site';
@@ -7,7 +7,7 @@ export const EDITOR_URL = CONTENT_ORIGIN + '/admin';
 
 const uploadKey = /^[a-f0-9-]+\.[a-z0-9]+$/;
 const localAsset = z.string().max(300).refine(value => !value ||
-  /^\/art\/(sculpture|mangrove|paper-cat)\.webp$/.test(value) ||
+  /^\/art\/(sculpture|mangrove|paper-cat|whats-in-my-bag-card|whats-in-my-bag-poster)\.webp$/.test(value) ||
   /^\/api\/files\/[a-f0-9-]+\.[a-z0-9]+$/.test(value));
 const safeLink = z.string().max(2000).refine(value => {
   if (!value) return true;
@@ -48,9 +48,9 @@ export async function readPublishedEntries(): Promise<{ entries: Entry[]; canEdi
   const byWeek = new Map(data.entries.filter(entry => entry.published).map(entry => [entry.week, entry]));
   // Keep the ten week slots used by the archive and its next-story navigation.
   // An unpublished upstream row never contributes even its title or subtitle.
-  const entries = initialEntries.map(template => byWeek.get(template.week) ?? {
+  const entries = initialEntries.map(template => byWeek.get(template.week) ?? (template.week === publishedFilm.week ? publishedFilm : {
     ...template, published: false, body: '', cover: '', assets: [], link: '', updated: '',
-  });
+  }));
   return { entries, canEdit: false };
 }
 

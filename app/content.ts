@@ -4,6 +4,22 @@ const topics = ['인생 그래프','자문자답 인터뷰','소설쓰기','지�
 const subtitles = ['뿌리를 내리는 중','좋아하는 마음의 모양','또 다른 나의 이야기','당신이 기억하는 나','움직이는 자기소개','내가 바라보는 것들','몸으로 전하는 이야기','기억이 머무는 장소','생각을 도구로','나만의 방식으로'];
 const media = ['LIFE GRAPH','INTERVIEW','FICTION','VOICE','FILM','IMAGE','PERFORMANCE','MAP','APPLICATION','OPEN FORMAT'];
 export const initialEntries: Entry[] = topics.map((title, week) => ({week,title,subtitle:subtitles[week],medium:media[week],body:'',published:week < 2,cover:week===0?'/art/mangrove.webp':week===1?'/art/paper-cat.webp':'',assets:[],link:'',updated:'',}));
+// This published film is maintained in the frontend source until a published
+// entry replaces it in the connected author editor.
+export const publishedFilm: Entry = {
+  week: 4,
+  title: "What's in my bag",
+  subtitle: '내가 고른 물건에 담긴 취향과 이야기',
+  medium: 'FILM',
+  body: '가방 속 물건을 하나씩 꺼내며 저를 소개합니다. 무엇을 가지고 다니는지, 왜 골랐는지 이야기하다 보면 좋아하는 것과 지나온 시간이 자연스럽게 드러납니다.\n\nCD 플레이어와 림킴의 사인 CD, 이소라 LP에는 음악 취향이, 서브폰과 카메라에는 기록하는 습관이 담겨 있습니다. 고릴라 베개와 재래김 파우치에 넣은 보조배터리, 케이크 모형, 바셀린, 안경까지. 제가 고른 물건들을 통해 박현욱을 만나 보세요.',
+  published: true,
+  cover: '/art/whats-in-my-bag-card.webp',
+  assets: [],
+  link: 'https://youtu.be/hEJF4UH5X3M',
+  updated: '2026-10-11T10:17:58.000Z',
+};
+export const filmPoster = '/art/whats-in-my-bag-poster.webp';
+initialEntries[4] = publishedFilm;
 initialEntries[0].body='내 삶의 굴곡을 한 그루의 맹그로브에 겹쳐 보았습니다. 바다에 뿌리를 내리는 나무처럼, 낯선 곳에서도 나의 자리를 만들어 가는 중입니다.\n\n이곳에는 지나온 선택과 앞으로의 기록이 함께 쌓입니다.';
 initialEntries[0].link='https://mangrove-life-steps.skfkgusdnr75.chatgpt.site/';
 initialEntries[1].body="1. 파티시에를 그만두면 제과제빵에도 관심이 없어지나요?\n\n저는 아직 관심이 많습니다. 8년 정도 하다 보니 재미있는 제과제빵 릴스가 올라오면 계속 보게 되고, 저장도 합니다. 지금은 디자인을 배우고 있지만 관심사까지 한 번에 바뀌지는 않는 것 같습니다. 하던 일은 그만뒀는데 관련 영상은 여전히 쌓이고, 자꾸 무언가를 만들고 싶기도 합니다. 다만 직업으로 하는 건 이제 그만하고 싶어요.\n\n2. 좋아하지만 가까이하기 어려운 것이 있나요?\n\n고양이요. 엄청 좋아하는데 알레르기가 있습니다. 좋아하는 마음과 몸의 반응이 좀 다릅니다. 종이접기도 좋아하는데, 고양이 접는 게 제 특기 중 하나입니다. 종이 고양이는 알레르기 걱정 없이 가까이할 수 있습니다.\n\n3. 애장품은 무엇인가요?\n\nGR3X HDF 카메라입니다! 사진 찍는 것을 좋아해서 제 애장품으로 꼽고 싶습니다. 좋아하는 것을 이야기하자면 향수도 빠질 수 없습니다. 좋은 향이 나면 마음이 평온해집니다. 카메라로는 보고 싶은 것을 담고, 향수로는 좋아하는 향을 곁에 둡니다.\n\n4. 시작 전에 아이디어를 충분히 생각하는 편인가요?\n\n시작하기까지 고민이 많지는 않습니다. 대신 시작한 뒤에 수정이 많습니다. 진행하면서 새로운 아이디어가 떠오르는 편이라, 오히려 시작하기 전에 아이디어부터 꺼내라고 하면 좀 힘듭니다. 일단 해봐야 다음 생각이 나옵니다. 처음부터 계획을 자세하게 세우기보다는 하면서 자꾸 바꾸는 사람에 가깝습니다. 완전 P예요.\n\n5. 오래 하던 일을 그만두면, 그동안 쌓은 시간은 어떻게 되나요?\n\n직업을 바꿨다고 해서 제가 완전히 다른 사람이 되는 건 아닌 것 같습니다. 무언가를 만들고, 마음에 들지 않으면 고치고, 다른 사람에게 보여주는 일은 지금도 하고 있으니까요. 물론 전에 하던 일을 오래 했다고 디자인까지 잘하게 되는 건 아닙니다. 새로 배울 것은 배우되, 이전의 저까지 처음부터 다시 시작해야 한다고 생각하지는 않으려고 합니다.";

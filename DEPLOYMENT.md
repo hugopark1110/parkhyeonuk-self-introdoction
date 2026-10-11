@@ -18,6 +18,8 @@ The bridge sends no visitor cookies, authorization, or oai-* identity headers. I
 
 Keep the original Site active: this is a frontend deployment, not a database and authentication migration. To remove the original backend later, migrate the saved entries, uploaded files, gallery, and author authentication first.
 
+The published WEEK 04 film is currently source-managed in `app/content.ts`, with card and video-poster assets in `public/art/`. A published WEEK 04 entry in the author editor supersedes this source fallback; unpublished upstream drafts remain hidden. The YouTube player loads only after the visitor presses play and turns off site background audio. The custom poster belongs to this website and does not change the thumbnail on YouTube itself.
+
 ## Deployment
 
 1. Create a private GitHub repository for this project and push the source to main.

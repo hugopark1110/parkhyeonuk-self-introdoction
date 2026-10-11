@@ -73,6 +73,16 @@ function load(file) {
   assert.equal(calls[0].options.redirect, 'error');
   assert.equal(calls[0].options.cache, 'no-store');
 
+  // The explicitly published source film survives an empty or private CMS slot.
+  fixture = { entries: [{ ...initial[4], published: false, title: 'PRIVATE FILM', body: 'PRIVATE FILM BODY' }] };
+  const filmData = await (await entriesRoute.GET()).json();
+  assert.equal(filmData.entries[4].published, true);
+  assert.equal(filmData.entries[4].link, 'https://youtu.be/hEJF4UH5X3M');
+  assert.equal(filmData.entries[4].cover, '/art/whats-in-my-bag-card.webp');
+  assert(!JSON.stringify(filmData).includes('PRIVATE FILM'));
+  fixture = { entries: [{ ...initial[4], title: 'Updated published film' }] };
+  assert.equal((await (await entriesRoute.GET()).json()).entries[4].title, 'Updated published film');
+
   fixture = { entries: [{ ...initial[0], link: 'javascript:alert(1)' }] };
   assert.equal((await entriesRoute.GET()).status, 503);
   fixture = { entries: [initial[0], initial[0]] };

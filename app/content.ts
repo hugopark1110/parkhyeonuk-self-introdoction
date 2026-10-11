@@ -15,7 +15,7 @@ export const publishedFilm: Entry = {
   published: true,
   cover: '/art/whats-in-my-bag-card.webp',
   assets: [],
-  link: 'https://youtu.be/hEJF4UH5X3M',
+  link: 'https://www.youtube.com/watch?v=fgH44a0QomM',
   updated: '2026-10-11T10:17:58.000Z',
 };
 export const filmPoster = '/art/whats-in-my-bag-poster.webp';

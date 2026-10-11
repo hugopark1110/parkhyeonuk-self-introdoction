@@ -77,7 +77,7 @@ function load(file) {
   fixture = { entries: [{ ...initial[4], published: false, title: 'PRIVATE FILM', body: 'PRIVATE FILM BODY' }] };
   const filmData = await (await entriesRoute.GET()).json();
   assert.equal(filmData.entries[4].published, true);
-  assert.equal(filmData.entries[4].link, 'https://youtu.be/hEJF4UH5X3M');
+  assert.equal(filmData.entries[4].link, 'https://www.youtube.com/watch?v=fgH44a0QomM');
   assert.equal(filmData.entries[4].cover, '/art/whats-in-my-bag-card.webp');
   assert(!JSON.stringify(filmData).includes('PRIVATE FILM'));
   fixture = { entries: [{ ...initial[4], title: 'Updated published film' }] };

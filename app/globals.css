@@ -132,3 +132,8 @@ html{scrollbar-gutter:stable}
 
 /* Content must remain accessible even if the hero animation does not settle. */
 .site:not(.reduce-motion) .selected{opacity:1;visibility:visible;transform:none;pointer-events:auto}
+
+/* Keep portfolio content in normal flow; avoid composited clipping in Safari. */
+.site:not(.reduce-motion) .selected,.site.reduce-motion .selected{margin-top:0;opacity:1;visibility:visible;transform:none;pointer-events:auto;isolation:isolate}
+#selected .feature,#selected .selected-heading{transform:none!important;opacity:1!important;visibility:visible!important;perspective:none}
+#selected .feature-image{transform:none!important;clip-path:none!important;-webkit-clip-path:none!important;isolation:auto}

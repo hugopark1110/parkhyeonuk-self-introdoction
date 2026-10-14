@@ -129,3 +129,6 @@ html{scrollbar-gutter:stable}
 
 /* Keep the gallery introduction readable on narrow screens. */
 @media(max-width:600px){.story-week-5 .story-title{font-size:clamp(1rem,5.2vw,1.75rem);line-height:1.4;word-break:keep-all;overflow-wrap:break-word;letter-spacing:-.035em;}}
+
+/* Content must remain accessible even if the hero animation does not settle. */
+.site:not(.reduce-motion) .selected{opacity:1;visibility:visible;transform:none;pointer-events:auto}

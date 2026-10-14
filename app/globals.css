@@ -126,3 +126,6 @@ html{scrollbar-gutter:stable}
 .friend-card-footer{position:absolute;left:12%;bottom:14%;font-size:clamp(12px,1.15vw,16px);letter-spacing:-.025em}
 @media(min-width:761px){.feature-3{margin-top:115px}}
 @media(max-width:760px){.friend-card-title{font-size:clamp(32px,8vw,56px)}.friend-card-quote{font-size:220px}}
+
+/* Keep the gallery introduction readable on narrow screens. */
+@media(max-width:600px){.story-week-5 .story-title{font-size:clamp(1rem,5.2vw,1.75rem);line-height:1.4;word-break:keep-all;overflow-wrap:break-word;letter-spacing:-.035em;}}

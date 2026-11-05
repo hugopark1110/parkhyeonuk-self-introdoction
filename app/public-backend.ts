@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { initialEntries, publishedFilm, type Entry } from './content';
+import { initialEntries, publishedFilm, publishedMap, type Entry } from './content';
 
 // This public read bridge deliberately has no access to sign-in headers or cookies.
 export const CONTENT_ORIGIN = 'https://parkhyeonuk-still-making.skfkgusdnr75.chatgpt.site';
@@ -48,7 +48,7 @@ export async function readPublishedEntries(): Promise<{ entries: Entry[]; canEdi
   const byWeek = new Map(data.entries.filter(entry => entry.published).map(entry => [entry.week, entry]));
   // Keep the ten week slots used by the archive and its next-story navigation.
   // An unpublished upstream row never contributes even its title or subtitle.
-  const entries = initialEntries.map(template => byWeek.get(template.week) ?? (template.week === publishedFilm.week ? publishedFilm : {
+  const entries = initialEntries.map(template => byWeek.get(template.week) ?? (template.week === publishedFilm.week ? publishedFilm : template.week === publishedMap.week ? publishedMap : {
     ...template, published: false, body: '', cover: '', assets: [], link: '', updated: '',
   }));
   return { entries, canEdit: false };

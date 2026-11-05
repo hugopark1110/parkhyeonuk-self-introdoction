@@ -18,6 +18,12 @@ export const publishedFilm: Entry = {
   link: 'https://www.youtube.com/watch?v=fgH44a0QomM',
   updated: '2026-10-11T10:17:58.000Z',
 };
+export const publishedMap: Entry = {
+  week: 7, title: '지도', subtitle: '', medium: 'MAP', body: '',
+  published: true, cover: '/art/personal-map.webp', assets: [], link: '',
+  updated: '2026-11-05T09:30:00.000Z',
+};
+initialEntries[7] = publishedMap;
 export const filmPoster = '/art/whats-in-my-bag-poster.webp';
 initialEntries[4] = publishedFilm;
 initialEntries[0].body='내 삶의 굴곡을 한 그루의 맹그로브에 겹쳐 보았습니다. 바다에 뿌리를 내리는 나무처럼, 낯선 곳에서도 나의 자리를 만들어 가는 중입니다.\n\n이곳에는 지나온 선택과 앞으로의 기록이 함께 쌓입니다.';
